@@ -23,12 +23,12 @@ To run this project, you need a modern web browser.
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/task-manager-web-app.git
+    git clone https://github.com/anupgupt-a/Task-manager.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd task-manager-web-app
+    cd Task-manager
     ```
 
 3. Open `index.html` in your web browser.
