@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px;
+}
+
+.form-container {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #218838;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+}
+
+.logout-button {
+    background: #dc3545;
+    margin-bottom: 20px;
+}
+
+.logout-button:hover {
+    background: #c82333;
+}
+
+#task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#task-list li {
+    background: #e9ecef;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+#task-list li button {
+    background: #6c757d;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#task-list li button:hover {
+    background: #5a6268;
+}
+
+#task-list li button.delete {
+    background: #dc3545;
+}
+
+#task-list li button.delete:hover {
+    background: #c82333;
+}
